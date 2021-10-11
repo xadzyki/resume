@@ -467,11 +467,12 @@ h3 {
   border-radius: 29px; 
 }
 
- .slid img {
+ .slide img {
   margin-left: 50px;
+  margin-right: 50px;
   border-radius: 29px;
 }
-.slid .text {
+.slide .text {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -492,6 +493,7 @@ margin: 0 350px;
   align-items: center;
   width: 300px;
   height: 490px;
+  margin-left: 50px;
 }
 .text h4 {
   margin-top: 20px;

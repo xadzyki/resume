@@ -142,6 +142,16 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+/* vfx header */
 .eclips {
   z-index: 1;
   margin-top: 160px;
@@ -195,6 +205,15 @@ h3 {
   color: #00c4f0;
   text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
 /* Skill */
 
 .skills {
@@ -243,6 +262,16 @@ h3 {
   color: #e4e4e4;
 }
 
+
+
+
+
+
+
+
+
+
+/* about */
 .about {
   height: 915px;
   margin-right: 315px;
@@ -320,6 +349,13 @@ h3 {
   font-style: normal;
 }
 
+
+
+
+
+
+
+/* bg info */
 .vfxBg {
   position: relative;
   width: 1225px;
@@ -363,14 +399,23 @@ h3 {
   filter: drop-shadow(0px 4px 70px rgba(0, 193, 236, 0.25));
 }
 
+
+
+
+
+
+
+
+
+/* portholio */
 .portholio {
   background: #252525;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding-bottom: 150px;
-}
+} 
 
 .portholio h3 {
   font-weight: normal;
@@ -378,6 +423,7 @@ h3 {
   line-height: 54px;
   color: #e4e4e4;
   margin-top: 100px;
+  text-align: center;
 }
 
 .slider {
@@ -385,7 +431,7 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-}
+} 
 
 .butt {
   font-size: 30px;
@@ -411,28 +457,32 @@ h3 {
 
 .slide {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: center; 
   width: 970px;
   height: 600px;
   margin: 0 100px;
   background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
   box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
-  border-radius: 29px;
+  border-radius: 29px; 
 }
 
-.slide img {
+ .slid img {
   margin-left: 50px;
   border-radius: 29px;
 }
-.slide .text {
+.slid .text {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.one {
+ .slide {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
+} 
+
+.center{
+margin: 0 350px;
 }
 
 .text {
@@ -466,6 +516,19 @@ h3 {
   color: #ffffff;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* footet */
 footer {
   display: flex;
   justify-content: center;

@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- ChiefSlider CSS -->
+    <link rel="stylesheet" href="chief-slider.min.css">
+    <!-- ChiefSlider JavaScript -->
+    <script defer src="chief-slider.js"></script>
     <title>Document</title>
 </head>
 
@@ -98,7 +102,17 @@
             <div class="columnWithText">
                 <h3>About Me</h3>
                 <div class="info">
-                    <p>Hello everyone again! So, you already know that my name is Mikhail. A little about myself: I am 22 years old, an athlete, I have loved creativity since childhood, I live in Yekaterinburg, Russia. Why programming? Everything is elementary - I like it, the profession of the future, thanks to which I can provide for myself and fulfill my dream - to travel, at the moment I am specializing in web design, interface. Why should you choose me? I approach each order with great responsibility and love, because I want to make a name for myself, eliminate plagiarism and negligence, fully study the project, the client and his target audience, work for quality, trying to make the work as fast and unique as possible, taking into account all edits and wishes. Trusting me, you will get the most out of your project, save your nerves and time. If you are interested in me, want to know something more or use my services, then I have provided all my contacts below.</p>
+                    <p>Hello everyone again! So, you already know that my name is Mikhail. A little about myself: I am
+                        22 years old, an athlete, I have loved creativity since childhood, I live in Yekaterinburg,
+                        Russia. Why programming? Everything is elementary - I like it, the profession of the future,
+                        thanks to which I can provide for myself and fulfill my dream - to travel, at the moment I am
+                        specializing in web design, interface. Why should you choose me? I approach each order with
+                        great responsibility and love, because I want to make a name for myself, eliminate plagiarism
+                        and negligence, fully study the project, the client and his target audience, work for quality,
+                        trying to make the work as fast and unique as possible, taking into account all edits and
+                        wishes. Trusting me, you will get the most out of your project, save your nerves and time. If
+                        you are interested in me, want to know something more or use my services, then I have provided
+                        all my contacts below.</p>
                 </div>
             </div>
             <div class="columnPhoto">
@@ -115,10 +129,83 @@
     </div>
     <section class="portholio">
         <h3>Portfolio</h3>
-        <div class="slider">
+        <div class="center">
+            <div class="slider">
+                <div class="slider__container">
+                    <div class="slider__wrapper">
+                        <div class="slider__items">
+                            <div class="slider__item">
+                                <div class="slide">
+                                    <img src="img/site1.png" width="500" height="500" alt="">
+                                    <div class="text">
+                                        <h4>Landing Ice-cream</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut orci eu
+                                            elit consequat
+                                            posuere ut sed elit. Nulla et tristique felis. Morbi quis orci non purus
+                                            blandit fringilla.
+                                            Etiam et mollis eros. Duis venenatis vulputate lacus, non tristique eros
+                                            placerat vel. Nam
+                                            nec magna lacus. Etiam euismod egestas mauris nec mollis. Phasellus
+                                            efficitur et ex vel
+                                            condimentum. Cras enim purus, tempor sed massa vel, accumsan bibendum magna.
+                                            Nullam
+                                            hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
+                                        <a href="#">More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="slide">
+                                    <img src="img/site1.png" width="500" height="500" alt="">
+                                    <div class="text">
+                                        <h4>Landing Ice-cream</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut orci eu
+                                            elit consequat
+                                            posuere ut sed elit. Nulla et tristique felis. Morbi quis orci non purus
+                                            blandit fringilla.
+                                            Etiam et mollis eros. Duis venenatis vulputate lacus, non tristique eros
+                                            placerat vel. Nam
+                                            nec magna lacus. Etiam euismod egestas mauris nec mollis. Phasellus
+                                            efficitur et ex vel
+                                            condimentum. Cras enim purus, tempor sed massa vel, accumsan bibendum magna.
+                                            Nullam
+                                            hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
+                                        <a href="#">More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="slide">
+                                    <img src="img/site1.png" width="500" height="500" alt="">
+                                    <div class="text">
+                                        <h4>Landing Ice-cream</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut orci eu
+                                            elit consequat
+                                            posuere ut sed elit. Nulla et tristique felis. Morbi quis orci non purus
+                                            blandit fringilla.
+                                            Etiam et mollis eros. Duis venenatis vulputate lacus, non tristique eros
+                                            placerat vel. Nam
+                                            nec magna lacus. Etiam euismod egestas mauris nec mollis. Phasellus
+                                            efficitur et ex vel
+                                            condimentum. Cras enim purus, tempor sed massa vel, accumsan bibendum magna.
+                                            Nullam
+                                            hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
+                                        <a href="#">More &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <a href="#" class="slider__control" data-slide="prev"></a>
+                <a href="#" class="slider__control" data-slide="next"></a>
+            </div>
+        </div>
+        <!-- <div class="slider">
             <button class="butt prev">&#8594;</button>
             <div class="slide">
-                <div class="one">
+                <div class="slider_item">
                     <img src="img/site1.png" width="500" height="500" alt="">
                     <div class="text">
                         <h4>Landing Ice-cream</h4>
@@ -133,7 +220,7 @@
                 </div>
             </div>
             <button class="butt next">&#8594;</button>
-        </div>
+        </div> -->
     </section>
     <footer>
         <div class="footer">
